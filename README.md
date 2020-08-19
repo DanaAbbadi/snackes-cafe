@@ -12,7 +12,7 @@ A simple program that shows a resturent menu, so the user can place his orders.
 
 # PR Link:
 
-https://github.com/DanaAbbadi/madlib-cli/pull/1
+https://github.com/DanaAbbadi/snackes-cafe/pull/1
 
 <br>
 <hr>
