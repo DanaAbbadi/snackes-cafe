@@ -42,7 +42,7 @@ def main():
         },
     ]
     i=0
-    lst = ["Wings","Cookies","Spring Rolls","Salmon","Steak","Meat Tornado","A Literal Garden","Ice Cream","Cake","Pie","Coffee","Tea","Unicorn Tears"]
+    lst = ["wings","cookies","spring Rolls","salmon","steak","meat tornado","a literal garden","ice cream","cake","pie","coffee","tea","unicorn tears"]
 
     for x in range(4):
         print(menu[x]["name"])
@@ -58,9 +58,9 @@ def main():
     orders = []
     entering = input()
     while entering != 'quit':
-        if entering in lst:
-            orders.append(entering)
-            occurance=orders.count(entering)
+        if entering.lower() in lst:
+            orders.append(entering.lower())
+            occurance=orders.count(entering.lower())
             print("** %d order of %s have been added to your meal **" %(occurance,entering))
         else:
                 print('please order from the menu')
